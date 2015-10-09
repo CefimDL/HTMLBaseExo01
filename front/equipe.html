@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>htmlTesteur</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/gabarit.css">
+    <link rel="stylesheet" href="../css/element.css">
+    <!--[if lt IE 9]>
+		<script src="../js/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+<div id="wrapper">
+	<header id="site-header">
+		<h1 id="site-title"><a href="index.html">html<span>Testeur</span></a></h1>
+		<p id="site-slogan">tout un univers de test</p>
+	</header>
+	<nav>
+		<ul class="clearfix">
+			<li><a href="index.html">Accueil</a></li>
+			<li class="link-active"><a href="equipe.html">L'équipe</a></li>
+			<li><a href="tarif.html">Tarifs</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<main class="clearfix">
+		<section>
+			<h2>L'équipe de Ouf</h2>
+			<p><img src="../img/equipe.jpg" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati accusamus animi, non alias id at vero ut neque ad voluptate cupiditate, nesciunt repellendus, sit earum excepturi debitis. Eos, molestias, neque!</p>
+
+
+			<article class="clearfix">
+				<header class="membre-header">
+					<img class="img-pre" src='../img/hulot.jpg'>
+					<h4 class="membre-nom">M. Hulot <span class="membre-poste">Patron chef</span></h4>
+				</header>
+				<p class="membre-descriptif">Do malis minim si doctrina. Nulla ullamco an domesticarum, dolore non mentitum
+					non varias eu e nisi iudicem nostrud ut cernantur ita incididunt, ex aute
+					officia nostrud, ne ab fugiat varias illum se proident id labore, ullamco o nisi
+					mandaremus. </p>
+			</article>
+			<article>
+				<header class="membre-header">
+					<img class="img-post" src='../img/keaton.jpg' />
+					<h4 class="membre-nom">M. Keaton <span class="membre-poste">Sous-Patron chef</span></h4>
+				</header>
+
+				<p class="membre-descriptif">Do malis minim si doctrina. Nulla ullamco an domesticarum, dolore non mentitum
+					non varias eu e nisi iudicem nostrud ut cernantur ita incididunt, ex aute
+					officia nostrud, ne ab fugiat varias illum se proident id labore, ullamco o nisi
+					mandaremus. </p>
+			</article>
+			<article>
+				<header>
+					<h4 class="membre-nom">Les Charlots <span class="membre-poste">special dédicace à Thomas...</span></h4>
+				</header>
+				<div class="clearfix">
+					<figure class='grouillot-photo'>
+						<img src="../img/fechner.jpg" alt="">
+						<figcaption>Fechner</figcaption>
+					</figure>
+					<figure class='grouillot-photo'>
+						<img src="../img/rego.jpg" alt="">
+						<figcaption>Rego</figcaption>
+					</figure>
+					<figure class='grouillot-photo'>
+						<img src="../img/filippelli.jpg" alt="">
+						<figcaption>Filippelli</figcaption>
+					</figure>
+					<figure class='grouillot-photo'>
+						<img src="../img/rinaldi.jpg" alt="">
+						<figcaption>Rinaldi</figcaption>
+					</figure>
+					<figure class='grouillot-photo'>
+						<img src="../img/sarrus.jpg" alt="">
+						<figcaption>Sarrus</figcaption>
+					</figure>
+				</div>
+			</article>
+
+		</section>
+		<aside>
+			<h2>A propos de cette page</h2>
+			<article>
+				A savoir concernant les images:
+				<dl>
+					<dt>
+						La balise : <strong>img</strong>
+					</dt>
+					<dd>
+						Cette balise permet d'insérer l'image.
+					</dd>
+					<dt>l'attribut <em>href</em></dt>
+					<dd>indique le chemin de l'image ciblée.</dd>
+					<dt>l'attribut <em>alt</em></dt>
+					<dd>donne un contenu alternatif apprécié par google.</dd>
+				</dl>
+			</article>
+
+			<article>
+				<h3>Ajout de légende</h3>
+				Si vous ajouter une légende à votre image, il vous les balises:
+				<dl>
+					<dt><strong>figure</strong></dt>
+					<dd>Cette balise encadre l'image et sa légende.</dd>
+					<dt><strong>figcaption</strong></dt>
+					<dd>Cette balise permet de baliser la légende. Doit être placé <mark>dans</mark> la balise <em>figure</em>, et <mark>à côté</mark> de la balise <em>img</em>. </dd>
+				</dl>
+			</article>
+			<article>
+				<h3>Le positionnement d'une image</h3>
+				<dl>
+					<dt>Positionnement naturel</dt>
+					<dd>De manière <em>naturelle</em>, une image se comporte comme un gros caractère. On peut l'intercaler entre deux caractères, elle agrandit la taille de la ligne.</dd>
+					<dt>Positionnement gauche, droite et centre</dt>
+					<dd>Le positionnement se fait grâce au CSS, et à la propriété <em>float</em>.</dd>
+				</dl>
+			</article>
+		</aside>
+	</main>
+	<footer>
+		<strong>htmlTesteur</strong> est un site de test perso | F. Ormateur
+	</footer>
+
+</div>
+
+</body>
+</html>
